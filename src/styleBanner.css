@@ -1,0 +1,72 @@
+ /* Container holding the image and the text */
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    flex-wrap: wrap;
+    
+    margin-right: -35px;
+    
+    margin-left: -95px;
+
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 1px;
+    left: 95px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: -256px;
+  }
+  
+  .bottom-left-welcome {
+    position: absolute;
+    bottom: 8px;
+    right: 720px;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+
+  color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+  font: 80px 'ChunkFiveRegular';
+  
+  } 
+
+
+  .centeredLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+
+    font: 15px 'ChunkFiveRegular';
+  } 

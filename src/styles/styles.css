@@ -1,0 +1,9 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+.form-control.input-sm{
+height: calc(1.5em + .45rem + 0.01px)
+}
+  
